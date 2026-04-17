@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>关于作者</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor2/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor2/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor2/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor2/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor2/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/card.css">
+  <link rel="stylesheet" href="assets/css/circle.css">
+  <link rel="stylesheet" href="assets/css/card2.css">
+
+  <!-- 修正后的样式：左对齐、冒号对齐、多行排版 -->
+  <style>
+    /* 外层容器：控制总宽度和居中 */
+    .tech-stack-container {
+      max-width: 800px; /* 可根据屏幕调整，保证内容不撑满 */
+      margin: 20px auto; /* 水平居中 */
+      padding: 15px;
+      color: #ffffff; /* 白色字体，适配深色背景 */
+      font-size: 1.1rem;
+      line-height: 1.8; /* 行高，保证多行不拥挤 */
+    }
+
+    /* 每一行的整体布局：flex 实现标签和内容分离 */
+    .tech-row {
+      display: flex;
+      align-items: flex-start; /* 顶部对齐，防止内容多了错位 */
+      margin-bottom: 12px; /* 行与行的间距 */
+    }
+
+    /* 左侧标签：固定宽度，保证所有冒号对齐 */
+    .tech-label {
+      flex: 0 0 100px; /* 固定宽度，不拉伸不压缩 */
+      font-weight: 600; /* 加粗，更醒目 */
+      text-align: left; /* 左对齐 */
+      padding-right: 10px; /* 标签和内容的间距 */
+    }
+
+    /* 右侧内容：自动换行，撑满剩余宽度 */
+    .tech-content {
+      flex: 1; /* 占满剩余空间 */
+      text-align: left; /* 内容左对齐，和你截图一致 */
+    }
+
+    /* 响应式适配：手机端缩小字体、调整标签宽度 */
+    @media (max-width: 576px) {
+      .tech-stack-container {
+        font-size: 0.95rem;
+      }
+      .tech-label {
+        flex: 0 0 80px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+      <div class="header-social-links">
+      </div>
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main" data-aos="fade" data-aos-delay="1500">
+    <!-- ======= End Page Header ======= -->
+    <div class="page-header d-flex align-items-center">
+      <div class="container position-relative">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2>关于我的技术栈</h2>
+            
+            <!-- 修正后的结构：完美对齐排版 -->
+            <div class="tech-stack-container">
+              <div class="tech-row">
+                <div class="tech-label">前端：</div>
+                <div class="tech-content">HTML、CSS、JavaScript、TypeScript、Vue、React、Svelte</div>
+              </div>
+              <div class="tech-row">
+                <div class="tech-label">后端：</div>
+                <div class="tech-content">Node.js、Express、Koa、Nest.js、Spring Boot、ASP.NET Core、Golang、Java、Python、PHP、C#</div>
+              </div>
+              <div class="tech-row">
+                <div class="tech-label">数据库：</div>
+                <div class="tech-content">MySQL、MongoDB、Redis、PostgreSQL</div>
+              </div>
+              <div class="tech-row">
+                <div class="tech-label">其他：</div>
+                <div class="tech-content">Git、Docker、Linux、Nginx、Kubernetes、Azure</div>
+              </div>
+            </div>
+
+            <a class="cta-btn" href="index.html" target="_blank" rel="noopener noreferrer">返回主页</a>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Page Header -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/zuozhe.jpg" class="img-fluid" alt="">
+          </div>
+
+          <div class="parent">
+            <div class="card">
+              <div class="logo">
+                <span class="circle circle1"></span>
+                <span class="circle circle2"></span>
+                <span class="circle circle3"></span>
+                <span class="circle circle4"></span>
+                <span class="circle circle5">
+                  <img src="assets/img/zuozhe.jpg" width="80" height="75" style="border-radius: 50px;">
+                </span>
+              </div>
+              <div class="glass"></div>
+              <div class="content">
+                <span class="title">夷陵老祖</span>
+                <span class="text">"03年，大三学生一枚"</span>
+              </div>
+              <div class="bottom">
+                <div class="social-buttons-container">
+                  <button class="social-button .social-button1">
+                    <a href="https://v.douyin.com/i8doNY6b/ 0@3.com 10/10" class="instagram" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-tiktok"></i>
+                    </a>
+                  </button>
+                  <button class="social-button .social-button3">
+                    <a href="https://mail.qq.com/cgi-bin/frame_html?sid=q1O-bJd5daBcK0Ah&r=f949330a17c2ea054f32742192ffadba" class="instagram" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-instagram"></i>
+                    </a>
+                  </button>
+                  <button class="social-button .social-button3">
+                    <svg viewBox="0 0 640 512" xmlns="https://qm.qq.com/cgi-bin/qm/qr?k=QpKZmMkKUEH5dfVZT5k_4zQ_IdqmWtVP&noverify=0&personal_qrcode_source=3" class="svg">
+                      <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+    </section>
+    <!-- End Testimonials Section -->
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <center>
+      <p> © 2026 <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">冀ICP备2022029610号</a> 版权所有 </p>
+    </center>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader">
+    <div class="line"></div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor2/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor2/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor2/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor2/aos/aos.js"></script>
+  <script src="assets/vendor2/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main2.js"></script>
+</body>
+
+</html>
